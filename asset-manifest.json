@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/AndersonHsieh0330/pokemongenerator.git/static/css/main.a617e044.chunk.css",
-    "main.js": "/AndersonHsieh0330/pokemongenerator.git/static/js/main.e9204ee2.chunk.js",
-    "main.js.map": "/AndersonHsieh0330/pokemongenerator.git/static/js/main.e9204ee2.chunk.js.map",
-    "runtime-main.js": "/AndersonHsieh0330/pokemongenerator.git/static/js/runtime-main.0cd04c44.js",
-    "runtime-main.js.map": "/AndersonHsieh0330/pokemongenerator.git/static/js/runtime-main.0cd04c44.js.map",
-    "static/js/2.96dd0b00.chunk.js": "/AndersonHsieh0330/pokemongenerator.git/static/js/2.96dd0b00.chunk.js",
-    "static/js/2.96dd0b00.chunk.js.map": "/AndersonHsieh0330/pokemongenerator.git/static/js/2.96dd0b00.chunk.js.map",
-    "static/js/3.7f2cc8bc.chunk.js": "/AndersonHsieh0330/pokemongenerator.git/static/js/3.7f2cc8bc.chunk.js",
-    "static/js/3.7f2cc8bc.chunk.js.map": "/AndersonHsieh0330/pokemongenerator.git/static/js/3.7f2cc8bc.chunk.js.map",
-    "index.html": "/AndersonHsieh0330/pokemongenerator.git/index.html",
-    "static/css/main.a617e044.chunk.css.map": "/AndersonHsieh0330/pokemongenerator.git/static/css/main.a617e044.chunk.css.map",
-    "static/js/2.96dd0b00.chunk.js.LICENSE.txt": "/AndersonHsieh0330/pokemongenerator.git/static/js/2.96dd0b00.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/AndersonHsieh0330/pokemongenerator.git/static/media/logo.6ce24c58.svg"
+    "main.css": "/pokemongenerator/static/css/main.a617e044.chunk.css",
+    "main.js": "/pokemongenerator/static/js/main.e9204ee2.chunk.js",
+    "main.js.map": "/pokemongenerator/static/js/main.e9204ee2.chunk.js.map",
+    "runtime-main.js": "/pokemongenerator/static/js/runtime-main.b83e4ccf.js",
+    "runtime-main.js.map": "/pokemongenerator/static/js/runtime-main.b83e4ccf.js.map",
+    "static/js/2.96dd0b00.chunk.js": "/pokemongenerator/static/js/2.96dd0b00.chunk.js",
+    "static/js/2.96dd0b00.chunk.js.map": "/pokemongenerator/static/js/2.96dd0b00.chunk.js.map",
+    "static/js/3.7f2cc8bc.chunk.js": "/pokemongenerator/static/js/3.7f2cc8bc.chunk.js",
+    "static/js/3.7f2cc8bc.chunk.js.map": "/pokemongenerator/static/js/3.7f2cc8bc.chunk.js.map",
+    "index.html": "/pokemongenerator/index.html",
+    "static/css/main.a617e044.chunk.css.map": "/pokemongenerator/static/css/main.a617e044.chunk.css.map",
+    "static/js/2.96dd0b00.chunk.js.LICENSE.txt": "/pokemongenerator/static/js/2.96dd0b00.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/pokemongenerator/static/media/logo.6ce24c58.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.0cd04c44.js",
+    "static/js/runtime-main.b83e4ccf.js",
     "static/js/2.96dd0b00.chunk.js",
     "static/css/main.a617e044.chunk.css",
     "static/js/main.e9204ee2.chunk.js"
