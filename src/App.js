@@ -1,23 +1,23 @@
 import logo from './logo.svg';
 import './App.css';
+import { useEffect, useRef, useState } from 'react';
 
 function App() {
+  const [search, setSearch] = useState(false)
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className = "App">
+       <div className = "Title">
+          <h1>Pokemon Generator</h1>
+          <p>by Anderson Hsieh</p>
+       </div>
+       <div className = "Data">
+         
+         data display
+         <button>
+
+         </button>
+       </div>
     </div>
   );
 }
