@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/pokemongenerator/static/css/main.2374b4eb.chunk.css",
-    "main.js": "/pokemongenerator/static/js/main.3a527791.chunk.js",
-    "main.js.map": "/pokemongenerator/static/js/main.3a527791.chunk.js.map",
+    "main.css": "/pokemongenerator/static/css/main.60c8db35.chunk.css",
+    "main.js": "/pokemongenerator/static/js/main.ef084319.chunk.js",
+    "main.js.map": "/pokemongenerator/static/js/main.ef084319.chunk.js.map",
     "runtime-main.js": "/pokemongenerator/static/js/runtime-main.589e7884.js",
     "runtime-main.js.map": "/pokemongenerator/static/js/runtime-main.589e7884.js.map",
-    "static/js/2.e665b77b.chunk.js": "/pokemongenerator/static/js/2.e665b77b.chunk.js",
-    "static/js/2.e665b77b.chunk.js.map": "/pokemongenerator/static/js/2.e665b77b.chunk.js.map",
+    "static/js/2.54e4ef8b.chunk.js": "/pokemongenerator/static/js/2.54e4ef8b.chunk.js",
+    "static/js/2.54e4ef8b.chunk.js.map": "/pokemongenerator/static/js/2.54e4ef8b.chunk.js.map",
     "static/js/3.6deb7043.chunk.js": "/pokemongenerator/static/js/3.6deb7043.chunk.js",
     "static/js/3.6deb7043.chunk.js.map": "/pokemongenerator/static/js/3.6deb7043.chunk.js.map",
     "index.html": "/pokemongenerator/index.html",
-    "static/css/main.2374b4eb.chunk.css.map": "/pokemongenerator/static/css/main.2374b4eb.chunk.css.map",
-    "static/js/2.e665b77b.chunk.js.LICENSE.txt": "/pokemongenerator/static/js/2.e665b77b.chunk.js.LICENSE.txt",
+    "static/css/main.60c8db35.chunk.css.map": "/pokemongenerator/static/css/main.60c8db35.chunk.css.map",
+    "static/js/2.54e4ef8b.chunk.js.LICENSE.txt": "/pokemongenerator/static/js/2.54e4ef8b.chunk.js.LICENSE.txt",
     "static/media/logo.6ce24c58.svg": "/pokemongenerator/static/media/logo.6ce24c58.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.589e7884.js",
-    "static/js/2.e665b77b.chunk.js",
-    "static/css/main.2374b4eb.chunk.css",
-    "static/js/main.3a527791.chunk.js"
+    "static/js/2.54e4ef8b.chunk.js",
+    "static/css/main.60c8db35.chunk.css",
+    "static/js/main.ef084319.chunk.js"
   ]
 }
