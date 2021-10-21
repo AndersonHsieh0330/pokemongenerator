@@ -3,12 +3,6 @@ import './App.css';
 import { useEffect, useRef, useState } from 'react';
 import Axios from "axios";
 
-function Pokemon(){
-  const [pokemon, getPokemon] = useState(null)
-  
-  return 
-}
-
 function getRandomInt(min, max) {
   min = Math.ceil(min);
   max = Math.floor(max);
@@ -22,10 +16,10 @@ function App() {
   //on Oct 20, 2021 the count is 1117, update the count after first request
   const [pokemonCount, setPokemonCount] = useState(1117)
 
-  const [pokemon, setPokemon] = useState({})
+  const [pokemon, setPokemon] = useState({typer:[]})
 
  useEffect(()=>{
-  Axios.get(`https://pokeapi.co/api/v2/pokemon/?limit=1&offset=${getRandomInt(1,pokemonCount)}`)
+  Axios.get(`https://pokeapi.co/api/v2/pokemon/?limit=1&offset=${getRandomInt(1,4)}`)
   .then(response => {
     console.log(`There are currently ${response.data.count} pokemons`)
     setPokemonCount(response.data.count)
@@ -41,15 +35,17 @@ function App() {
 function getPokemon(url){
   Axios.get(url)
   .then(response =>{
+    console.log(response)
     setPokemon({
       name:response.data.name,
       img:response.data.sprites.front_default,
-      type:response.data.types
+      typer:response.data.types
     })
     console.log(pokemon)
   })
 
 }
+
 
   return (
     <div className = "App">
@@ -61,7 +57,7 @@ function getPokemon(url){
        <div className = "DataBox">
           <p>{pokemon.name}</p>
           <img className = "PokemonIMG" src={pokemon.img}></img>
-          {pokemon.type.map(i => <p>{i.type.name}</p>)}
+          {pokemon.typer.map(i => <p>{i.type.name}</p>)}
        </div>
     </div>
   );
