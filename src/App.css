@@ -1,31 +1,43 @@
 .App {
   display: flex;
+  height: 1500px;
+  background-color: #fce8ea;
   flex-direction: column;
-}
-
-.TitleBox {
-  flex:1;
-  display: flex;
-  height: 300px;
-  background-color: #F0DBA3;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
 
+.TitleBox {
+  display: flex;
+  background-color: #F0DBA3;
+  flex-direction: column;
+  justify-content:flex-end;
+  align-items: center;
+}
+
+.TitleBox h1{
+  font-Size:50px;
+    margin-Top:15px;
+    margin-Bottom:2px;
+}
+
+.TitleBox h3{
+  font-Size:15px;
+  align-Self:end;
+  margin-Top:0px;
+   margin-Bottom:20px
+}
 
 .TitleBox button{
-  width: 100px;
+  width: 180px;
   height: 50px;
   background-color: #eae7de;
   color: black;
   border-radius: 10px;
-  text-size-adjust: 50%;
   border: none;
   border-width: 1px;
   border-color: #eae7de; 
-  margin-bottom: 15px; 
+  margin-bottom: 20px; 
+  align-self: center;
   font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
 
@@ -41,15 +53,37 @@
   background-color: #dbd8d0;
 }
 
+.InfoCell {
+  display:flex;
+  flex-direction:row;
+   align-self:flex-start;
+  align-items:center;
+
+}
+.InfoCell h3{
+  font-size: 20px;
+}
+.InfoCell p{
+  text-indent: 10px;
+}
+
+.Info{
+  display:flex;
+  flex-Direction:column;
+  align-Self:flex-start;
+  justify-Content:center;
+  align-Items:center
+}
+
 .DataBox{
-  background-color: white;
+  background-color: #FCE8EA;
   justify-content: center;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
+  margin-top: 20px;
 }
 
 .PokemonIMG{
-  width: 200px;
-  height: 200px;
+  width: 250px;
 }

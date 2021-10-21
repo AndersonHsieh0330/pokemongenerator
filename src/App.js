@@ -9,7 +9,17 @@ function getRandomInt(min, max) {
   return Math.floor(Math.random() * (max - min) + min); //The maximum is exclusive and the minimum is inclusive
 }
 
+function InfoCell(props){
+  return (<div className = "InfoCell">
+  <h3>{props.cellName}:</h3><p >{props.cellData}</p></div>)
+}
+
 function App() {
+  //empty dependency array for useEffect to only run once
+  useEffect(()=>{
+    document.title = "Pokemon Generator"
+  },[])
+
   //state for "search button" click
   const [search, setSearch] = useState(false)
 
@@ -39,27 +49,44 @@ function getPokemon(url){
     setPokemon({
       name:response.data.name,
       img:response.data.sprites.front_default,
-      typer:response.data.types
+      typer:response.data.types,
+      hp:response.data.stats[0].base_stat,
+      attack:response.data.stats[1].base_stat,
+      defense:response.data.stats[2].base_stat
     })
     console.log(pokemon)
   })
 
 }
 
-
   return (
+    
     <div className = "App">
+      <title>Pokemon Generator</title>
        <div className = "TitleBox">
-          <h1>Pokemon Generator</h1>
+         <div style={{display:'flex',flexDirection:'column'}}>
+          <h1> Pokemon Generator</h1>
           <h3>by Anderson Hsieh</h3>
           <button onClick = {()=>setSearch(!search)}>Search</button>
        </div>
+       </div>
        <div className = "DataBox">
-          <p>{pokemon.name}</p>
-          <img className = "PokemonIMG" src={pokemon.img}></img>
-          {pokemon.typer.map(i => <p>{i.type.name}</p>)}
+       <img className = "PokemonIMG" src={pokemon.img} style={{marginRight:100}}></img>
+          <div className = "Info">
+          <InfoCell cellName = "Name" cellData={pokemon.name}/>
+          
+          <div style={{display:'flex', flexDirection:'row', alignSelf:'flex-start', alignItems:'center'}}>
+            <h3>Type: </h3>
+          {pokemon.typer.map(i => <p style={{textIndent:10}}>{i.type.name}</p>)}
+          </div>
+
+            <InfoCell cellName = "HP" cellData={pokemon.hp}/>
+          <InfoCell cellName = "Attack" cellData={pokemon.attack}/>
+          <InfoCell cellName = "Defense" cellData={pokemon.defense}/>
+       </div>
        </div>
     </div>
+
   );
 }
 
