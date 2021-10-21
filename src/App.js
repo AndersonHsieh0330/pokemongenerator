@@ -19,7 +19,7 @@ function App() {
   const [pokemon, setPokemon] = useState({typer:[]})
 
  useEffect(()=>{
-  Axios.get(`https://pokeapi.co/api/v2/pokemon/?limit=1&offset=${getRandomInt(1,4)}`)
+  Axios.get(`https://pokeapi.co/api/v2/pokemon/?limit=1&offset=${getRandomInt(0,pokemonCount)}`)
   .then(response => {
     console.log(`There are currently ${response.data.count} pokemons`)
     setPokemonCount(response.data.count)
