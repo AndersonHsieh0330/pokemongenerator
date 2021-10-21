@@ -3,18 +3,53 @@
   flex-direction: column;
 }
 
-.Title{
+.TitleBox {
   flex:1;
   display: flex;
-  background-color: blueviolet;
+  height: 300px;
+  background-color: #F0DBA3;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
 
-.Data{
-  background-color: blue;
+
+.TitleBox button{
+  width: 100px;
+  height: 50px;
+  background-color: #eae7de;
+  color: black;
+  border-radius: 10px;
+  text-size-adjust: 50%;
+  border: none;
+  border-width: 1px;
+  border-color: #eae7de; 
+  margin-bottom: 15px; 
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+
+.TitleBox button:hover{
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+  cursor: pointer;
+}
+
+.TitleBox button:active{
+  background-color: #dbd8d0;
+}
+
+.DataBox{
+  background-color: white;
   justify-content: center;
   display: flex;
+  flex-direction: column;
   align-items: center;
+}
+
+.PokemonIMG{
+  width: 200px;
+  height: 200px;
 }

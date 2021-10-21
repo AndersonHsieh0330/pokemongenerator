@@ -25,7 +25,7 @@ function App() {
   const [pokemon, setPokemon] = useState({})
 
  useEffect(()=>{
-  Axios.get(`https://pokeapi.co/api/v2/pokemon/?limit=1&offset=${1}`)
+  Axios.get(`https://pokeapi.co/api/v2/pokemon/?limit=1&offset=${getRandomInt(1,pokemonCount)}`)
   .then(response => {
     console.log(`There are currently ${response.data.count} pokemons`)
     setPokemonCount(response.data.count)
@@ -43,27 +43,25 @@ function getPokemon(url){
   .then(response =>{
     setPokemon({
       name:response.data.name,
-      species:response.data.species,
       img:response.data.sprites.front_default,
       type:response.data.types
     })
     console.log(pokemon)
   })
+
 }
-
-
-  
 
   return (
     <div className = "App">
-       <div className = "Title">
+       <div className = "TitleBox">
           <h1>Pokemon Generator</h1>
-          <p>by Anderson Hsieh</p>
+          <h3>by Anderson Hsieh</h3>
           <button onClick = {()=>setSearch(!search)}>Search</button>
        </div>
-       <div className = "Data">
-         data display
-         
+       <div className = "DataBox">
+          <p>{pokemon.name}</p>
+          <img className = "PokemonIMG" src={pokemon.img}></img>
+          {pokemon.type.map(i => <p>{i.type.name}</p>)}
        </div>
     </div>
   );
