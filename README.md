@@ -9,5 +9,5 @@ What I learned:
 - More Git commands
 
 Library and resources used: 
-- Pokemon API: https://pokeapi.co/ (Thank you to the creator! I loved it!)
+- [Pokemon API](https://pokeapi.co/) (Thank you to the creator! I loved it!)
 - Axios
