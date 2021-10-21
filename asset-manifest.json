@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/pokemongenerator/static/css/main.60c8db35.chunk.css",
-    "main.js": "/pokemongenerator/static/js/main.23655979.chunk.js",
-    "main.js.map": "/pokemongenerator/static/js/main.23655979.chunk.js.map",
+    "main.js": "/pokemongenerator/static/js/main.1b56ef1e.chunk.js",
+    "main.js.map": "/pokemongenerator/static/js/main.1b56ef1e.chunk.js.map",
     "runtime-main.js": "/pokemongenerator/static/js/runtime-main.589e7884.js",
     "runtime-main.js.map": "/pokemongenerator/static/js/runtime-main.589e7884.js.map",
     "static/js/2.eefcc032.chunk.js": "/pokemongenerator/static/js/2.eefcc032.chunk.js",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.589e7884.js",
     "static/js/2.eefcc032.chunk.js",
     "static/css/main.60c8db35.chunk.css",
-    "static/js/main.23655979.chunk.js"
+    "static/js/main.1b56ef1e.chunk.js"
   ]
 }
