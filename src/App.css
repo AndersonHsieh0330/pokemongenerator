@@ -1,6 +1,6 @@
 .App {
   display: flex;
-  height: 1500px;
+  height: 100vh;
   background-color: #fce8ea;
   flex-direction: column;
   font-family: "Comic Sans MS", "Comic Sans", cursive;
@@ -56,7 +56,7 @@
 .InfoCell {
   display:flex;
   flex-direction:row;
-   align-self:flex-start;
+  justify-content: flex-start;  
   align-items:center;
 
 }
@@ -72,11 +72,18 @@
   flex-Direction:column;
   align-Self:flex-start;
   justify-Content:center;
-  align-Items:center
+  align-Items:flex-start
 }
 
-.DataBox{
-  background-color: #FCE8EA;
+.PokemonInfoBox{
+  width: 590px;
+  display:flex;
+  flex-direction: row;
+  justify-content: flex-start;
+
+}
+
+.BottomCenterContainer{
   justify-content: center;
   display: flex;
   flex-direction: row;
@@ -85,5 +92,6 @@
 }
 
 .PokemonIMG{
-  width: 250px;
+  width: 300px;
+  margin-right: 50px;
 }
